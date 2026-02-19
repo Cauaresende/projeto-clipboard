@@ -19,10 +19,10 @@
 }
 
 body {
+    font-family: fonte-principal;
     background-image: url(bg-header-mobile.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: fonte-principal;
+    background-size: 100%;
 }
 
 main {
