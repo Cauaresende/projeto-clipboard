@@ -30,6 +30,14 @@ h2 {
     color: var(--texto);
 }
 
+p {
+    color: var(--sub-texto);
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    padding: 15px 0px 30px 0px;
+}
+
 header {
     text-align: center;
     margin-top: 15%;
@@ -51,13 +59,6 @@ header h1 {
     font-size: 1.6em;
 }
 
-header p {
-    margin-bottom: 50px;
-    color: var(--sub-texto);
-    font-weight: bolder;
-    font-size: 1em;
-}
-
 button {
     padding: 15px 80px;
     border-radius: 30px;
@@ -69,7 +70,7 @@ button {
 }
 
 header .button-ios {
-    margin-bottom: 20px;
+    margin: 30px 0px;
     background-color: var(--ciano);
     color: white;
 }
@@ -80,20 +81,29 @@ header .button-mac {
 }
 
 .section-desktop {
+    margin-bottom: 20%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-desktop p {
-    text-align: center;
-    font-size: 1em;
-    color: var(--sub-texto);
-    font-weight: bold;
-    padding: 15px 0px 30px 0px;
-}
-
 .section-desktop img {
     width: 300px;
     padding: 30px 0px;
+}
+
+.section-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-mobile img {
+    width: 380px;
+    margin-bottom: 15%;
+}
+
+.section-mobile div {
+    margin-bottom: 25px;
 }
