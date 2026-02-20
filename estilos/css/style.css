@@ -63,6 +63,7 @@ header h1 {
     color: var(--texto);
     font-weight: 700;
     font-size: 1.5em;
+    padding: 0 20px;
 }
 
 button {
