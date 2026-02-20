@@ -81,7 +81,7 @@
     }
 
     .section-mobile img {
-        max-width: 40vw;
+        width: 40vw;
     }
 
     div.list-mobile {
