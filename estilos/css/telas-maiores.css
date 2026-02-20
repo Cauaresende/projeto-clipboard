@@ -81,7 +81,7 @@
     }
 
     .section-mobile img {
-        width: 40vw;
+        max-width: 40vw;
     }
 
     div.list-mobile {
@@ -102,7 +102,7 @@
     }
 
     footer {
-        height: 120px;
+        max-height: 120px;
 
         display: grid;
         grid-template-columns: repeat(4, 1fr) 2fr;
