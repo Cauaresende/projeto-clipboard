@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="estilos/images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="estilos/css/style.css">
   <link rel="stylesheet" href="estilos/css/telas-maiores.css">
+  <script src="https://kit.fontawesome.com/ff092b6afc.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <header>
@@ -27,15 +28,15 @@
       </div>
       <img src="estilos/images/image-computer.png" alt="img-desktop">
       <div class="topic-2">
-        <h2>Quick Search</h2>
+        <h2 class="subtexto">Quick Search</h2>
         <p>Easily search your snippets by content, category, web address, application, and more.</p>
       </div>
       <div class="topic-3">
-        <h2>iCloud Sync</h2>
+        <h2 class="subtexto">iCloud Sync</h2>
         <p>Instantly saves and syncs snippets across all your devices.</p>
       </div>
       <div class="topic-4">
-        <h2>Complete History</h2>
+        <h2 class="subtexto">Complete History</h2>
         <p>Retrieve any snippets from the first moment you started using the app.</p>
       </div>
     </section>
@@ -50,20 +51,22 @@
         <h2>Supercharge your workflow </h2>
         <p>We’ve got the tools to boost your productivity.</p>
       </div>
-      <div>
-        <img src="estilos/images/icon-blacklist.svg" alt="img-blacklist">
-        <h2>Create blacklists</h2>
-        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-      </div>
-      <div>
-        <img src="estilos/images/icon-text.svg" alt="img-text">
-        <h2>Plain text snippets</h2>
-        <p>Remove unwanted formatting from copied text for a consistent look.</p>
-      </div>
-      <div>
-        <img src="estilos/images/icon-preview.svg" alt="img-blacklist">
-        <h2>Sneak preview</h2>
-        <p>Quick preview of all snippets on your Clipboard for easy access. </p>
+      <div class="list-mobile">
+        <div>
+          <img src="estilos/images/icon-blacklist.svg" alt="img-blacklist">
+          <h2 class="subtexto">Create blacklists</h2>
+          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </div>
+        <div>
+          <img src="estilos/images/icon-text.svg" alt="img-text">
+          <h2 class="subtexto">Plain text snippets</h2>
+          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div>
+          <img src="estilos/images/icon-preview.svg" alt="img-blacklist">
+          <h2 class="subtexto">Sneak preview</h2>
+          <p>Quick preview of all snippets on your Clipboard for easy access. </p>
+        </div>
       </div>
     </section>
     
@@ -78,22 +81,24 @@
     <section class="section-final">
         <h2>Clipboard for iOS and Mac OS</h2>
         <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
-        <button type="button" class="button-ios">Download for iOS</button>
-        <button type="button" class="button-mac">Download for Mac</button>
+        <div class="area-button">
+          <button type="button" class="button-ios">Download for iOS</button>
+          <button type="button" class="button-mac">Download for Mac</button>
+        </div>
     </section>
    </main>
 
    <footer>
      <img src="estilos/images/logo.svg" alt="img-logo" class="logo-footer">
-     <span>FAQs</span>
-     <span>Contact Us</span>
-     <span>Privacy Policy</span>
-     <span>Press Kit</span>
-     <span>Install Guide</span>
-     <div>
-      <img src="estilos/images/icon-facebook.svg" alt="img-facebook">
-      <img src="estilos/images/icon-twitter.svg" alt="img-twitter">
-      <img src="estilos/images/icon-instagram.svg" alt="img-instagram">
+     <a class="link-1" href="#">FAQs</a>
+     <a class="link-2" href="#">Contact Us</a>
+     <a class="link-3" href="#">Privacy Policy</a>
+     <a class="link-4" href="#">Press Kit</a>
+     <a class="link-5" href="#">Install Guide</a>
+     <div class="icones">
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
      </div>
    </footer>
 </body>

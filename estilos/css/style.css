@@ -32,15 +32,15 @@ main {
 h2 {
     text-align: center;
     color: var(--texto);
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 p {
     color: var(--sub-texto);
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
-    padding: 15px 0px 30px 0px;
+    padding: 15px 20px 30px 20px;
 }
 
 header {
@@ -55,6 +55,7 @@ header {
 
 header img {
     margin-bottom: 20px;
+    width: 100px;
 }
 
 header h1 {
@@ -80,9 +81,17 @@ button {
     color: white;
 }
 
+.button-ios:hover {
+        box-shadow: hsla(171, 66%, 44%, 0.514) 0px 5px 7px;
+    }
+
 .button-mac {
     background-color: var(--azul);
     color: white;
+}
+
+.button-mac:hover {
+    box-shadow: hsl(233, 100%, 69%, 0.514) 0px 5px 7px;
 }
 
 .section-desktop {
@@ -140,10 +149,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     margin-bottom: 80px;
 }
-
 footer {
     background-color: rgba(211, 211, 211, 0.397);
     color: var(--texto);
@@ -162,4 +171,19 @@ footer .logo-footer {
 footer div img{
     padding: 0 20px;
     cursor: pointer;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: var(--texto);
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--ciano);
+}
+
+.icones a {
+    font-size: 25px;
 }
