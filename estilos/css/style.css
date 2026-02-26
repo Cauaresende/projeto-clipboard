@@ -9,6 +9,7 @@
     font-family: fonte-principal;
     src: url(BaiJamjuree-Regular.ttf);
     font-weight: normal;
+    font-display: swap;
 }
 
 :root {
@@ -134,7 +135,7 @@ button {
 }
 
 .section-logos {
-    margin: 30px 0px 20% 0px;
+    margin: 30px 0px 100px 0px;
 
     display: flex;
     flex-direction: column;
@@ -179,6 +180,7 @@ footer a {
     font-size: 1.1em;
     color: var(--texto);
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 footer a:hover {
